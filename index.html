@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main__container">
+        <h1 class="header">Online keyboard!</h1>
+        <p class="project__desc">
+          Beautiful modern virtual keyboard made in HTML + CSS + Vanilla JS
+        </p>
+      </div>
+    </div>
+    <div class="screen">
+      <!-- <input type="text" data-current-operand class="input" /> -->
+      <div data-current-operand class="input"></div>
+    </div>
+    <div class="keyboard__container">
+      <div class="row first-row">
+        <button class="key" id="sem" data-letter>`</button>
+        <button class="key" id="num first" data-number>1</button>
+        <button class="key" id="num second" data-number>2</button>
+        <button class="key" id="num three" data-number>3</button>
+        <button class="key" id="num four" data-number>4</button>
+        <button class="key" id="num five" data-number>5</button>
+        <button class="key" id="num six" data-number>6</button>
+        <button class="key" id="num seven" data-number>7</button>
+        <button class="key" id="num eight" data-number>8</button>
+        <button class="key" id="num nine" data-number>9</button>
+        <button class="key" id="num zero" data-number>0</button>
+        <button class="key" id="dash dasho" data-letter>-</button>
+        <button class="key" id="dash dasho" data-letter>=</button>
+        <button class="key backspace" id="backspace" data-backspace>
+          backspace
+        </button>
+      </div>
+      <div class="row second-row">
+        <button class="key tab" id="tab" data-space>tab</button>
+        <button class="key capit" id="letter" data-letter>q</button>
+        <button class="key capit" id="letter" data-letter>w</button>
+        <button class="key capit" id="letter" data-letter>e</button>
+        <button class="key capit" id="letter" data-letter>r</button>
+        <button class="key capit" id="letter" data-letter>t</button>
+        <button class="key capit" id="letter" data-letter>y</button>
+        <button class="key capit" id="letter" data-letter>u</button>
+        <button class="key capit" id="letter" data-letter>o</button>
+        <button class="key capit" id="letter" data-letter>i</button>
+        <button class="key capit" id="letter" data-letter>p</button>
+        <button class="key" id="open" data-letter>[</button>
+        <button class="key" id="close" data-letter>]</button>
+        <button class="key" id="slash" data-letter>\</button>
+      </div>
+      <div class="row third-row">
+        <button class="key shift" id="caps" data-caps>caps</button>
+        <button class="key capit" id="letter" data-letter>a</button>
+        <button class="key capit" id="letter" data-letter>s</button>
+        <button class="key capit" id="letter" data-letter>d</button>
+        <button class="key capit" id="letter" data-letter>f</button>
+        <button class="key capit" id="letter" data-letter>g</button>
+        <button class="key capit" id="letter" data-letter>h</button>
+        <button class="key capit" id="letter" data-letter>j</button>
+        <button class="key capit" id="letter" data-letter>k</button>
+        <button class="key capit" id="letter" data-letter>l</button>
+        <button class="key" id="colon" data-letter>;</button>
+        <button class="key" id="dot" data-letter>'</button>
+        <button class="key enter" id="entero" data-enter>enter</button>
+      </div>
+      <div class="row quad-row">
+        <button class="key shift" id="shift" data-shift-left>shift</button>
+        <button class="key capit" id="letter" data-letter>z</button>
+        <button class="key capit" id="letter" data-letter>x</button>
+        <button class="key capit" id="letter" data-letter>c</button>
+        <button class="key capit" id="letter" data-letter>v</button>
+        <button class="key capit" id="letter" data-letter>b</button>
+        <button class="key capit" id="letter" data-letter>n</button>
+        <button class="key capit" id="letter" data-letter>m</button>
+        <button class="key" id="comma" data-letter>,</button>
+        <button class="key" id="dotted" data-letter>.</button>
+        <button class="key" id="slasher" data-letter>/</button>
+        <button class="key shift" id="shift" data-shift-right>shift</button>
+      </div>
+      <div class="row fifth-row">
+        <button class="key" id="com" data-letter>.com</button>
+        <button class="key" id="monkey" data-letter>@</button>
+        <button class="key space" id="space" data-letter>Space</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  background-image: url(./33.jpg);
+}
+
+.main__container {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.header {
+  font-size: 4rem;
+  text-align: center;
+  color: #e2dfd2;
+  margin-bottom: 1rem;
+}
+
+.project__desc {
+  font-size: 2rem;
+  color: #e2dfd2;
+  text-align: center;
+}
+
+.row1 {
+  color: red;
+}
+
+.keyboard__container {
+  margin-top: 10rem;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #d3d3d3;
+  border-radius: 11px;
+  padding: 1rem;
+}
+
+.key {
+  border-radius: 5px;
+  box-shadow: 0 1 10px -1px rgba(0, 0, 0, 0.3);
+  font-size: 1.6rem;
+  cursor: pointer;
+  border: none;
+  width: 55px;
+  height: 55px;
+
+  transition: all 0.1s;
+
+  background: #fff;
+  text-align: center;
+  color: #333;
+
+  border-radius: 0.3em;
+
+  border: 1px solid #444;
+  border-bottom-color: rgb(68, 68, 68);
+  box-shadow: 0 0.2em 0 0.05em #222;
+  border-bottom-color: #555;
+}
+
+.row {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.space {
+  width: 100%;
+}
+
+.shift {
+  width: 150px;
+}
+
+.enter {
+  width: 200px;
+}
+.backspace {
+  width: 250px;
+}
+
+.tab {
+  width: 100px;
+}
+
+.input {
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  padding: 3rem;
+  margin-bottom: 5rem;
+  border-radius: 11px;
+}
+.screen {
+  width: 500px;
+  margin: 0 auto;
+}
