@@ -32,6 +32,18 @@ class Keyboard {
   }
 }
 
+
+let i = 0;
+let text = "Welcome to online keyboard!";
+function typing() {
+  if (i < text.length) {
+    answer.innerHTML += text.charAt(i);
+    i++;
+    setTimeout(typing, 50);
+  }
+}
+
+
 function changeKeyboard(count) {
   if (count % 2 != 0) {
     capit.forEach((key) => {
@@ -144,6 +156,10 @@ backspace.addEventListener("click", () => {
 });
 let counter1 = 0;
 // Spaces
+
+
+//Activate welcome message
+typing();
 
 tab.addEventListener("click", function () {
   keyboard.appendSpace();
